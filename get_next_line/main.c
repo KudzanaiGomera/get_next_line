@@ -6,7 +6,7 @@
 /*   By: kgomera <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/05 14:27:25 by kgomera           #+#    #+#             */
-/*   Updated: 2019/07/11 10:29:28 by kgomera          ###   ########.fr       */
+/*   Updated: 2019/07/15 15:49:38 by kgomera          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,9 @@ int				main(int argc, char **argv)
 	while ((ret = get_next_line(fd, &txt)) > 0)
 	{
 		printf("%s\n", txt);
-	}
-	printf("Done\n");
-	if (txt != NULL)
-	{
 		free(txt);
 	}
+	printf("Done\n");
+	sleep(60);
 	return (0);
 }
