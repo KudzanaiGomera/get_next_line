@@ -5,6 +5,8 @@ It is a function that reads a file and allows you to read a line ending with a n
 
 A (-1) is returned if an error occurred. A (0) is returned if the file is finished reading. And a (1) is returned if a line is read.
 
+![Terminal Image](./gnl-screenshot01.png)
+
 # Getting Started
 ## Compiling
 Run the following commands:
